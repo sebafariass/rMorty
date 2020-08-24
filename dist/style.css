@@ -1,0 +1,83 @@
+body {
+    background: black;
+}
+.titulo {
+  font-size: 80px;
+  text-align: center;
+  color: turquoise;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.titulo_personaje {
+	color: turquoise;
+}
+.card-title,.card-text{
+  color: grey;
+}
+
+
+.card {
+  margin: 5px;
+  
+}
+
+#personajes {
+
+    align-content: center;
+    padding: 30px;
+
+      
+      
+  }
+   .card-body{
+    display: none;
+  }
+
+  .imagen {
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  #Personajes {
+    padding: 15px;
+  }
+
+  p{
+      font-size: 20px;
+  }
+
+  h1 {
+      color: brown;
+  }
+.card-body {   /* hacer desaparecer el contenido */ 
+    display: none;
+    
+}
+
+.imagen:hover {
+	transform: rotateY(180deg)
+   
+}
+
+
+.card__personajes {
+    background-color:black;
+    font-weight: bold;
+  }
+
+  .logo {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  
+  .imagen {
+    width: 250px;
+ 
+  }
+
+  @media (max-width:560px) {
+      .card{ padding:80px}
+    
+      }
+  
